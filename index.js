@@ -10,7 +10,7 @@ whitelist = [ "^http.?://www.zibri.org$", "zibri.org$", "test\\..*" ];  // regex
 */
 
 blacklist = [ ];           // regexp for blacklisted urls
-whitelist = [ ".*" ];     // regexp for whitelisted origins
+whitelist = [ "https://www.sakugabooru.com" ,"https://dot-cmyk.github.io/"];     // regexp for whitelisted origins
 
 function isListed(uri,listing) {
     var ret=false;
